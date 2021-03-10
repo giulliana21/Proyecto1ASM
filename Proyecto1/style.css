@@ -1,0 +1,156 @@
+/*CONTENEDOR HEADER*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: cornflowerblue;
+    height: 18vh;
+}
+
+.header img {
+    height: 90px;
+}
+
+
+/*CONTENEDOR PALABRA 1*/
+
+.palabra-obj-1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.palabra-obj-1 img {
+    height: 200px;
+}
+
+
+/*CONTENEDOR PALABRA 2*/
+
+.palabra-obj-2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.palabra-obj-2 img {
+    height: 200px;
+}
+
+
+/*CONTENEDOR PALABRA 3*/
+
+.palabra-obj-3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.palabra-obj-3 img {
+    height: 200px;
+}
+
+
+/*CONTENEDOR PALABRA 4*/
+
+.palabra-obj-4 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.palabra-obj-4 img {
+    height: 200px;
+}
+
+
+/*CONTENEDOR PALABRA 5*/
+
+.palabra-obj-5 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.palabra-obj-5 img {
+    height: 200px;
+}
+
+
+/*CONTENEDORES BOTONES*/
+
+.btns-idiomas {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.cont-btns {
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-btns img {
+    height: 30px;
+}
+
+.btns-idiomas a {
+    min-width: 9rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    font-family: sans-serif;
+    background: cornflowerblue;
+    color: white;
+}
+
+.btns-idiomas a:hover {
+    background: rgb(78, 161, 78);
+    border: 1px solid rgb(78, 161, 78);
+    transition: all linear 0.3s
+}
+
+.btn-siguiente {
+    min-width: 9rem;
+    display: flex;
+    flex-flow: row;
+    transform: translateX(750%);
+    justify-content: center;
+    align-items: center;
+    height: 3.6rem;
+    width: 1rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    font-family: sans-serif;
+    background: cornflowerblue;
+    color: white;
+}
+
+.btn-siguiente:hover {
+    background: rgb(78, 161, 78);
+    border: 1px solid rgb(78, 161, 78);
+    transition: all linear 0.3s
+}
+
+.btn-siguiente img {
+    height: 50px;
+}
